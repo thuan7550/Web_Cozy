@@ -1,0 +1,140 @@
+@font-face{
+	font-family:OpenSans-Regular;
+	src:url(../fonts/OpenSans-Regular.ttf)
+}
+@font-face{
+	font-family:OpenSans-Bold;
+	src:url(../fonts/OpenSans-Bold.ttf)
+}
+*{
+	font-family:OpenSans-Regular;
+}
+body{
+	position:relative
+}
+#menu .nav{ 
+	height:49px; 
+	position:relative; 
+	z-index:999;
+	font-family:OpenSans-bold;
+	background-color:#34495E;
+}
+#menu .nav li { 
+	line-height:1.35em;
+	list-style-type:none;
+}
+#menu .nav li a { 
+	color:#fff;
+	font-size:1.20em
+}
+#menu .sub ul li{ 
+	color:#000;
+	background-color:#3d71a6;
+}
+.menu-icon {
+	display:none;
+}
+
+#menu ul.dropdown,
+#menu ul.dropdown li,
+#menu ul.dropdown ul { 
+	margin: 0; 
+	padding: 0; 	
+}
+
+#menu ul.dropdown li { 
+	float: left; 
+	vertical-align: left; 
+}
+
+#menu ul.dropdown li {  
+	font-size:1.2em; 
+}
+#menu ul.dropdown a,
+#menu ul.dropdown a:visited,	
+#menu ul.dropdown a:hover, 		
+#menu ul.dropdown a:active { 
+	text-decoration: none;
+}
+#menu ul.dropdown li:hover{
+	background-color:#3d71a6
+}
+#menu ul.dropdown a:hover{
+	color:#fff;
+}
+
+#menu ul.dropdown a, 
+#menu ul.dropdown span { 
+	display: block;
+	outline:none; 
+	cursor:pointer; 
+	padding:13px 15px;
+}
+
+#menu ul.dropdown ul a,
+#menu ul.dropdown ul span {  
+	padding:12px 15px; 
+	
+}	
+
+#menu ul.dropdown li:hover, 
+#menu ul.dropdown li:hover { 
+	position: relative; 
+	cursor:pointer; 
+}
+
+/*menu cap 1*/
+#menu ul.dropdown ul { 
+	display:none; 
+	position: absolute;
+	z-index: 598;
+	width: 220px; 
+	top: 100%; 
+	left: 0; 
+}
+
+ 
+#menu ul.dropdown li:hover > ul{ 
+	display:block;
+}
+
+#menu ul.dropdown ul li { 
+	float: none;
+	font-size:13px;
+	font-weight: normal; 
+	text-transform:none;
+	position:relative; 
+}
+#menu ul.dropdown ul li:hover, 
+#menu ul.dropdown ul li:hover {
+	background-color:#34495E;
+	color: #fff;
+}
+#menu ul.dropdown ul li a:hover {
+	color: #fff;
+}
+	
+/*menu cap 2*/
+#menu ul.dropdown ul ul {
+	top:0;
+	left:100%;
+}
+#menu ul.dropdown *.sub { 
+	padding-right:15px; 
+	background-image: url(../images/menu/nav-arrow-down-thin.gif); 
+	background-position: 95% 50%; 
+	background-repeat: no-repeat; 
+}
+#menu ul.dropdown ul *.sub { 
+	padding-right: 15px; 
+	background-image: url(../images/menu/nav-arrow-right-thin-dark.gif);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+}
+
+#menu ul.dropdown li.sub:hover{ 
+	background-image: url(../images/menu/nav-arrow-down.gif);
+} 
+#menu ul.dropdown ul li.sub:hover{
+	background-image: url(../images/menu/nav-arrow-right-dark.gif);
+}
