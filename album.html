@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/album.css">
+	<script>
+		$(function() {		   
+				// main menu toggler
+				$('.nav').prepend('<div class="menu-icon"><span>Menu</span></div>');
+				$('.menu-icon').click(function(){						
+					$('ul.dropdown').slideToggle(700);
+					$(this).toggleClass("active");	
+				});			
+				// sub menu accordion-like toggler 
+				var $menuToggler = $('.sub > a');
+				$menuToggler.click(function(e) {
+					e.preventDefault();
+					var $this = $(this);
+					$this.toggleClass('current').next('ul').toggleClass('current');
+				});			
+			});
+		
+		
+
+	</script>
+</head>
+<body>
+	<header id="header" class="">
+		<div id="lang-bar">
+			
+		</div>
+
+		<div class="row">
+			<div class="container">
+				<div class="col-md-2">
+					<img class="logo" src="images/logo.png" alt="">
+				</div>
+				<div class="col-md-8">
+					<div id="menu" class="container">
+						<div id="navbar" class="nav main-nav">
+							<ul class="dropdown">
+								<li class="">
+									<a href="home.html">TRANG CHỦ</a>					
+								</li>
+								<li class="">
+									<a href="album.html">ALBUM</a>						
+								</li>
+								<li class="">
+									<a href="package.html">GÓI DỊCH VỤ</a>					
+								</li>
+								<li class="">
+									<a href="partners.html">ĐỐI TÁC</a>						
+								</li>
+								<li class="">
+									<a href="promotion.html">KHUYẾN MÃI</a>					
+								</li>
+								<li class="sub">
+									<a href="about.html">CHÚNG TÔI</a>
+									<ul>
+										<li class="sub"><a href="">THÔNG TIN MỚI</a></li>
+									</ul>					
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<img src="images/tag-contact-vi1.png" alt="">
+				</div>
+			</div>
+		</div>		
+	</header><!-- /header -->
+	
+	
+
+	<section id="gallery">
+        <div class="container gallery-title">
+            <h2>Gallery</h2>
+        </div>
+        <div class="container-fluid gallery-content">
+    		<div class="container">			  
+    			  <div class="row">
+    				<div class="col-md-3">
+    				  <div class="thumbnail">
+    					<a href="" target="_blank">
+    					  <img src="images/album/1.jpg" alt="Lights" style="width:100%">
+    					  <div class="caption">
+    						<p>Ngoại cảnh</p>
+    					  </div>
+    					</a>
+    				  </div>
+    				</div>
+    				<div class="col-md-3">
+    				  <div class="thumbnail">
+    					<a href="" target="_blank">
+    					  <img src="images/album/2.jpg" alt="Nature" style="width:100%">
+    					  <div class="caption">
+    						<p>Gia đình</p>
+    					  </div>
+    					</a>
+    				  </div>
+    				</div>
+    				<div class="col-md-3">
+    				  <div class="thumbnail">
+    					<a href="" target="_blank">
+    					  <img src="images/album/3.jpg" alt="Fjords" style="width:100%">
+    					  <div class="caption">
+    						<p>Phong cách tự nhiên – Natural style</p>
+    					  </div>
+    					</a>
+    				  </div>
+    			   </div>
+                   <div class="col-md-3">
+                      <div class="thumbnail">
+                        <a href="" target="_blank">
+                          <img src="images/album/4.jpg" alt="Fjords" style="width:100%">
+                          <div class="caption">
+                            <p>Phong cách sắp đặt — Precious style</p>
+                          </div>
+                        </a>
+                      </div>
+                   </div>
+    			</div>
+    		</div>
+        </div>
+	</section>
+
+	
+
+	<footer class="container-fluid">		
+		<div class="row">
+			<div class="container">
+				<div class="col-md-4">
+					<ul>
+						<li><a href="">Help</a></li>
+						<li><a href="">Privacy</a></li>
+						<li><a href="">Chúng tôi</a></li>
+						<li><a href="">Liên hệ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<p><b>Cozy Studio</b> 10 Nguyễn Hiền, P4, Q3, TPHCM Ho Chi Minh Asia 70000 Viet Nam</p>
+				</div>
+				<p>All Rights Reserved - Designed by Agilsun Copyright © 2013 Cozy Studio. </p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

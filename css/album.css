@@ -1,0 +1,24 @@
+#menu ul.dropdown li:nth-child(2){
+	border-bottom: 3px solid #fe527a;
+}
+
+#gallery>.gallery-title{
+	background-color: #fff;
+}
+
+#gallery>.gallery-content{
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding-top: 40px;
+}
+
+.caption{
+	text-align: center;
+	font-weight: bold;
+}
+.thumbnail{
+	border: none;
+}
+.thumbnail>a:hover{
+	text-decoration: none;
+}

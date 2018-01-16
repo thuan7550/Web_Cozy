@@ -1,0 +1,125 @@
+
+#menu ul.dropdown li:first-child{
+	border-bottom: 3px solid #fe527a;
+}
+
+.carousel-control.left {
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+	background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x;
+}
+.carousel-control.right {
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+	background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 0%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x;
+}
+
+#slider{
+	padding-bottom: 70px;
+}
+#slider>.container{
+	padding: 0;
+}
+#contact{
+	padding-bottom: 30px;
+}
+#contact>.container{
+	background-color: #fff;
+	height: 50px;
+}
+#contact>.container>ul{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#contact>.container>ul>li{
+	float: left;
+	list-style-type: none;
+	line-height: 50px;
+	width: 10%;
+}
+#contact>.container>ul>li>a{
+	text-align: center;
+    text-decoration: none;
+}
+#contact>.container>ul>li>a>img{
+	width: 30%;
+}
+.thumbnail:hover{
+	background-color: green;
+}
+#main>.container{
+	background-color: #fff;
+	padding-top: 30px;
+}
+#main{
+	padding-bottom: 40px;
+}
+#main .row{
+	padding-bottom: 20px;
+}
+#main .col-md-4{
+	padding-left: 40px;
+	text-align: center;
+	width: 25%;
+}
+#main .col-md-8{
+	padding-left: 30px;
+}
+#main .col-md-8>a>h3{
+	margin-top: 0;
+	font-size: 1.2em;
+	color: #a2a2a2;
+	font-weight: bold;
+	text-decoration: none;
+}
+#main .col-md-8>a{
+	text-decoration: none;
+}
+#main .col-md-8>a>h3:hover{
+	color: green;
+}
+#main .col-md-8>p{
+	font-size: 1.1em;
+	color: #a2a2a2;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+footer{
+	background-color: #fff;
+}
+footer ul{
+	overflow: hidden;
+}
+footer ul li{
+	float: left;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+footer ul li a:hover{
+	text-decoration: none;
+}
