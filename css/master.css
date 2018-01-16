@@ -29,10 +29,6 @@ header>.row>.container>.col-md-2:last-child>img{
 	z-index:999;
 	margin-left: 30px;
 }
-header>.row>{
-
-}
-
 #menu .nav{
 	position:relative;	
 	font-family:OpenSans-bold;
